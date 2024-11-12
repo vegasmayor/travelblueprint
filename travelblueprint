@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel with [Your Name]</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Travel with [Your Name]</h1>
+        <p>Uncover the world through honest travel tips and firsthand experiences</p>
+    </header>
+
+    <!-- Main Navigation -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Homepage Section -->
+        <section id="home">
+            <h2>Welcome to Travel with [Your Name]</h2>
+            <p>Exploring new destinations can be life-changing, from experiencing unique cultures to tasting exotic cuisines. I’m here to share my travel adventures, offering you tips and recommendations on where to stay, eat, and explore. </p>
+            <p>While I’m not a travel agent, my goal is to help make your travels easier by providing honest, firsthand advice—covering the good, the bad, and everything in between.</p>
+        </section>
+
+        <!-- Destinations Section -->
+        <section id="destinations">
+            <h2>Destinations</h2>
+            <p>Explore my travel insights by region. Select a destination below to find my recommendations for hotels, restaurants, activities, and more.</p>
+            <ul class="destination-list">
+                <li><a href="aruba.html">Aruba</a></li>
+                <li><a href="italy.html">Italy</a></li>
+                <li><a href="florida.html">Florida</a></li>
+                <!-- Add more destinations as needed -->
+            </ul>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Welcome to my travel blog! My name is [Your Name], and I’ve been exploring destinations worldwide, capturing my journey through stories, photos, and advice. My goal is to provide an honest, unfiltered look at each destination, highlighting the best spots to visit as well as some of the hidden challenges travelers might face.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Have questions about a destination or want to connect? Feel free to reach out!</p>
+            <form action="#" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Travel with [Your Name] | All Rights Reserved</p>
+        <p>Follow me on: 
+            <a href="#">Instagram</a> | 
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a>
+        </p>
+    </footer>
+</body>
+</html>
